@@ -1,9 +1,11 @@
-# SQL Data Warehouse Project
+# SQL Data Warehouse Project + Analysis
 
 ## **Overview**
 This project implements a **Data Warehouse** using the **Medallion Architecture** (**Bronze → Silver → Gold**) to integrate, clean, standardize, and transform CRM and ERP data into **analytics-ready insights**.
 
 The solution provides a robust ETL pipeline, dimensional modeling, and a unified platform for **reporting**, **data analytics**, and future **machine learning** workflows.
+
+Following the creation of the warehouse, you will find a folder of scripts analyzing the data, working on various forms of data analysis such as magnitude, ranking, performance, & change-over-time analyses.
 
 ---
 
