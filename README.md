@@ -19,7 +19,7 @@ Following the creation of the warehouse, you will find a folder of scripts analy
 ---
 
 ## **Architecture**
-![Data Architecture](./assets/data_architecture.png)
+![Data Architecture Diagram](docs/data_architecture.png)
 
 The warehouse follows the **3-layer Medallion Architecture**:
 
@@ -32,7 +32,7 @@ The warehouse follows the **3-layer Medallion Architecture**:
 ---
 
 ## **Data Flow**
-![Data Flow](./assets/data_flow.png)
+![Data Flow](docs/data_flow.png)
 
 - **Source Systems** → CRM & ERP CSV datasets.
 - **Bronze Layer** → Raw ingestion via bulk inserts.
@@ -42,7 +42,7 @@ The warehouse follows the **3-layer Medallion Architecture**:
 ---
 
 ## **Data Model**
-![Data Model](./assets/data_model.png)
+![Data Model](docs/data_model.png)
 
 - **Fact Table:** `gold.fact_sales`
   - Contains transactional data like sales, quantities, pricing, and shipping details.
@@ -55,7 +55,7 @@ The warehouse follows the **3-layer Medallion Architecture**:
 ---
 
 ## **Data Integration**
-![Data Integration](./assets/data_integration.png)
+![Data Integration](docs/data_integration.png)
 
 The integration process:
 - Combines transactional data (`crm_sales_details`) with customer and product info.
